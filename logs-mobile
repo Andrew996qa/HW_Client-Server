@@ -1,8 +1,0 @@
-/var/log/syslog или /var/log/messages — главный системный лог Linux.
-/var/log/auth.log или /var/log/secure — журнал авторизации пользователей.
-/var/log/maillog/ или /var/log/mail.log — логи почтового сервера.
-/var/log/httpd/ или /var/log/apache2/ — логи веб-сервера Apache. Журнал доступа находится в файле access.log, а логи ошибок в файле error.log.
-/var/log/nginx/ — логи веб-сервера Nginx.
-/var/log/dmesg — лог загрузки системы.
-/var/log/mysql/ — логи базы данных MySQL.
-/var/log/cron — логи планировщика Cron.
