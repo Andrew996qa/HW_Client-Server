@@ -1,2 +1,6 @@
 Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
- resource: net::ERR_BLOCKED_BY_CLIENT
+resource: net::ERR_BLOCKED_BY_CLIENT
+TypeError: Cannot read properties of nul (reading 'youtube_channel_whitelist')
+    at addScript (adblock-yt-cs.js:131:18)
+    at async init (adblock-yt-cs.js:142:3)
+    at async adblock-yt-cs.js:146:3
