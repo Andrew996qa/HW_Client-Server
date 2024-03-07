@@ -4,3 +4,13 @@ TypeError: Cannot read properties of nul (reading 'youtube_channel_whitelist')
     at addScript (adblock-yt-cs.js:131:18)
     at async init (adblock-yt-cs.js:142:3)
     at async adblock-yt-cs.js:146:3
+
+GET https://static.salesdoubler.pro/merchant/click.js net::ERR_BLOCKED_BY_CLIENT
+
+GET https://connect.facebook.net/en_US/fbevents.js net::ERR_BLOCKED_BY_CLIENT
+
+12051.62703.js:2 [WARNING] Crisp found shims of native JavaScript methods. This can alter the chatbox behavior and break things. Make sure not to override listed functions to ensure your chatbox works as expected. You may be looking for other JavaScript libraries in use on this page.
+
+You can disable this warning by adding: $crisp.push(["safe", true]) to your page JavaScript.
+
+Methods to check: 
