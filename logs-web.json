@@ -6,3 +6,9 @@
 /var/log/dmesg — лог загрузки системы.
 /var/log/mysql/ — логи базы данных MySQL.
 /var/log/cron — логи планировщика Cron.
+
+12051.62703.js:2 [WARNING] Crisp found shims of native JavaScript methods. This can alter the chatbox behavior and break things. Make sure not to override listed functions to ensure your chatbox works as expected. You may be looking for other JavaScript libraries in use on this page.
+
+You can disable this warning by adding: $crisp.push(["safe", true]) to your page JavaScript.
+
+Methods to check: 
